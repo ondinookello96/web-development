@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickNotes - Interactive</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>QuickNotes</h1>
+    <p id="note-count">You have 0 notes.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Add a Note</h2>
+      <form id="note-form">
+        <input type="text" id="note-input" placeholder="Type a note..." required />
+        <button type="submit">Add Note</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Your Notes</h2>
+      <ul id="notes-list">
+        <!-- JavaScript will render notes here dynamically -->
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
