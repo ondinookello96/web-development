@@ -1,9 +1,0 @@
-/* Character Counter States */
-p#char-count.warning {
-  color: #d97706 !important; /* Orange */
-}
-
-p#char-count.over {
-  color: #dc2626 !important; /* Red */
-  font-weight: bold !important;
-}
